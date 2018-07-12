@@ -1,139 +1,177 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Tiago Iwamoto - WebSite</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-  </style>
-</head>
-<body>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+    <title>UninterApp</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    </head>
+        <body>
+           <nav>
+            <div class="nav-wrapper blue">
+              <a href="#!" class="brand-logo" style="padding-left: 10px;">Uninter</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#">Sass</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">Mobile</a></li>
+              </ul>
+            </div>
+          </nav>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Tiago Iwamoto</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Sobre mim</a></li>
-        <li><a href="#">Experiências</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>Tiago Henrique Iwamoto</h1>      
-    <p>Todo trabalho deve ser feito com amor, somente desta maneira se faz algo perfeito.</p>
-  </div>
-</div>
-  
-  <div class="container-fluid bg-3 text-center">    
-  <h3>Sobre mim</h3><br>
-  <p>Brasileiro, 32 anos, solteiro vive em Curitiba/Pr.</p>
-  <p>Estudante de Técnologia em Analise e Desenvolvimento de Sistemas na Faculdade Opet.</p>
-  <p>Procuro sempre estar desenvolvendo sistemas para meu aperfeiçoamento utilizando Java, C#, Ruby juntamente com os banco de dados Oracle, Mysql, MongoDb, sempre buscando novas técnicas de desenvolvimento.</p>
-   
-  </div>
-</div><br>
-  
-<div class="container-fluid bg-3 text-center">    
-  <h3>Meus trabalhos</h3><br>
-  <div class="row">
-   
-    <div class="col-sm-3"> 
-      <p><b>Técnico em informática</b></p>
-      <p>Experiência efetuando manutenção de computadores, onde efetuava troca de hardware, instalação de softwares, backup, restauração, dual boot</p>
-	  <p>Empresa: Edion - Nagoya - Japão</p>
-	  <p>02/2015 - 03/2016</p>
-    </div>
-    <div class="col-sm-3">
-      <p><b>Desenvolvimento Desktop</b></p>
-      <p>Desenvolvendo projetos pessoais em Java, C# pude ter um contato maior com o desenvolvimento de softwares desktop.</p>
-	  <p><a href="https://sourceforge.net/u/tiagoiwamoto/profile" />Link dos projetos</a></p>
-    </div>
-    <div class="col-sm-3">
-      <p><b>Fotógrafo</b></p>
-      <p>Experiência em fotografias externas, eventos sociais e retrato e tambem a edição das fotos no software Adobe LightRoom.</p>
-	  <p><a href="https://www.flickr.com/photos/tiagoiwamoto/" />Link dos projetos</a></p>
-	  <p>01/2013 - 12/2014</p>
-    </div>
-  </div>
-</div><br>
-
-    
-  </div>
-</div><br><br>
-
-<div class="container-fluid bg-3 text-center">    
-  <h3>Contato</h3><br>
-  <div class="row">
-    <div class="col-sm-3">
-      <p>Email</p>
-      <p>ti.breakout@gmail.com</p>
-    </div>
-    
-    <div class="col-sm-3">
-      <p>Linkedin</p>
-      <p><a href="https://www.linkedin.com/in/tiago-iwamoto/" />Perfil</a></p>
-    </div>
-	
-	 <div class="col-sm-3">
-      <p>Celular</p>
-      <p>(41)99513-0230</p>
-    </div>
-   
-  </div>
-</div><br>
-
-
-
-
-<footer class="container-fluid text-center">
-  <p>Site Pessoal, Desenvolvido em HTML5 e BootStrap | <!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-var sc_project=11309697; 
-var sc_invisible=0; 
-var sc_security="c8cf5596"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="website
-statistics" href="http://statcounter.com/"
-target="_blank"><img class="statcounter"
-src="//c.statcounter.com/11309697/0/c8cf5596/0/"
-alt="website statistics"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide --></p>
-</footer>
-
-</body>
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="#">Sass</a></li>
+            <li><a href="#">Components</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Mobile</a></li>
+          </ul>
+          
+          
+           <div class="section blue lighten-5">
+              <div class="row container">
+                <h2 class="header">UninterApp</h2>
+                <p class="grey-text text-darken-3 lighten-3">A rede social para alunos, professores e cordenação se unirem !</p>
+              </div>
+            </div>
+            <div class="parallax-container">
+              <div class="parallax"><img src="img/bg-1.jpg"></div>
+            </div>
+            <div class="section white">
+              <div class="row container">
+                <h2 class="header">O que faz ?</h2>                
+                <div class="slider">
+                    <ul class="slides">
+                      <li>
+                        <img src="img/bg-slide.jpg">
+                        <div class="caption center-align">
+                          <h3>Com o intuito de melhorar a comunicação da turma...</h3>
+                          <h5 class="light grey-text text-lighten-3">UninterApp.</h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/bg-slide.jpg">
+                        <div class="caption left-align">
+                          <h3>da turma com os professores...</h3>
+                          <h5 class="light grey-text text-lighten-3">UninterApp</h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/bg-slide.jpg">
+                        <div class="caption right-align">
+                          <h3>da professores com a turma...</h3>
+                          <h5 class="light grey-text text-lighten-3">UninterApp</h5>
+                        </div>
+                      </li>
+                      <li>
+                        <img src="img/bg-slide.jpg">
+                        <div class="caption center-align">
+                          <h3>da coordenação com a turmas e professores...</h3>
+                          <h5 class="light grey-text text-lighten-3">UninterApp</h5>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+            <div class="parallax-container">
+              <div class="parallax"><img src="img/bg-2.jpg"></div>
+            </div>
+            <div class="section blue lighten-5">
+              <div class="row container">
+                <h2 class="header">Quem usa ?</h2>
+                <div class="col s3"><a class="btn waves-effect pulse">Escola A</a></div>
+                <div class="col s3"><a class="btn waves-effect pulse">Escola B</a></div>
+                <div class="col s3"><a class="btn waves-effect pulse">Escola C</a></div>
+                <div class="col s3"><a class="btn waves-effect pulse">Escola D</a></div>
+                </div>
+            </div>
+            <div class="parallax-container">
+              <div class="parallax"><img src="img/bg-3.jpg"></div>
+            </div>
+            <div class="section white">
+              <div class="row container">
+                <h2 class="header">O App</h2>
+                <div class="col l4 s12"><img src="img/sc-01.png"></div>
+                <div class="col l4 s12"><img src="img/sc-02.png"></div>
+                <div class="col l4 s12"><img src="img/sc-03.png"></div>
+                </div>
+              </div>
+              
+            <div class="parallax-container">
+              <div class="parallax"><img src="img/bg-4.jpg"></div>
+            </div>
+            <div class="section white">
+              <div class="row container">
+                <h2 class="header">Fale conosco!</h2>
+                 <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12 l6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">First Name</label>
+                    </div>
+                    <div class="input-field col s12 l6">
+                      <i class="material-icons prefix">phone</i>
+                      <input id="icon_telephone" type="tel" class="validate">
+                      <label for="icon_telephone">Telephone</label>
+                    </div>
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Textarea</label>
+                    </div> 
+                    <div class="col s12 l12">
+                        <button class="btn btn-large blue waves-effect">Enviar</button>
+                    </div>                   
+                  </div>
+                </form>
+                </div>
+              </div>    
+              <div class="section blue lighten-5">
+              <div class="row container">
+                <h2 class="header">Redes sociais</h2>
+                <div class="col l3 s3"><img src="img/face-icon.png"></div>
+                <div class="col l3 s3"><img src="img/insta-icon.png"></div>
+                <div class="col l3 s3"><img src="img/linkedin-icon.png"></div>
+                <div class="col l3 s3"><img src="img/twitter-icon.png"></div>
+              </div>
+            </div>  
+            
+                    
+                            
+        <footer class="page-footer blue">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">UninterApp</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>                                            
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+            <script>
+                $(document).ready(function(){
+                    $('.parallax').parallax();
+                    $('.sidenav').sidenav();
+                    $('.slider').slider();
+                });
+            </script>
+        </body>
 </html>
